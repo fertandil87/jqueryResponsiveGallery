@@ -1,0 +1,46 @@
+html,body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+#demo{
+    position: relative;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#demo2{
+    position: relative;
+    width: 50%;
+    float: right;
+    background: blue;
+    overflow: hidden;
+    height: 1000px;
+    display: none;
+}
+.item{
+    position: relative;
+    width: 33.33%;
+    height: 600px;
+    display: blok;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.item img{
+    width: 100%;
+    display: block;
+}
+
+.item2{
+    position: absolute;
+    width: 33.33%;
+    display: block;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.item2 img{
+    width: 100%;
+    display: block;
+}
